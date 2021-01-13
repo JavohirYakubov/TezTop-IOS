@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA3DB83925AB661F002E5B25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB83825AB661F002E5B25 /* AppDelegate.swift */; };
+		FA3DB84225AB6620002E5B25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3DB84125AB6620002E5B25 /* Assets.xcassets */; };
+		FA3DB84525AB6620002E5B25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3DB84325AB6620002E5B25 /* LaunchScreen.storyboard */; };
+		FA3DB85025AB6620002E5B25 /* TezTopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB84F25AB6620002E5B25 /* TezTopTests.swift */; };
+		FA3DB85B25AB6621002E5B25 /* TezTopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB85A25AB6621002E5B25 /* TezTopUITests.swift */; };
+		FA3DB86A25AB66CA002E5B25 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB86925AB66CA002E5B25 /* MainViewController.swift */; };
+		FA3DB86C25AB67A1002E5B25 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB86B25AB67A1002E5B25 /* Constants.swift */; };
+		FA3DB86F25AB6B3F002E5B25 /* TopicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3DB86E25AB6B3F002E5B25 /* TopicsViewController.swift */; };
+		FAA68CAB25ACD2C900034DDC /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA68CAA25ACD2C900034DDC /* TopicModel.swift */; };
+		FAA68CAE25ACD32100034DDC /* TopicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA68CAD25ACD32100034DDC /* TopicTableViewCell.swift */; };
+		FAA68CB025ACD59500034DDC /* TopicsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA68CAF25ACD59500034DDC /* TopicsTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA3DB84C25AB6620002E5B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3DB82D25AB661F002E5B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3DB83425AB661F002E5B25;
+			remoteInfo = TezTop;
+		};
+		FA3DB85725AB6621002E5B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA3DB82D25AB661F002E5B25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA3DB83425AB661F002E5B25;
+			remoteInfo = TezTop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA3DB83525AB661F002E5B25 /* TezTop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TezTop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3DB83825AB661F002E5B25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA3DB84125AB6620002E5B25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA3DB84425AB6620002E5B25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA3DB84625AB6620002E5B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3DB84B25AB6620002E5B25 /* TezTopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TezTopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3DB84F25AB6620002E5B25 /* TezTopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezTopTests.swift; sourceTree = "<group>"; };
+		FA3DB85125AB6620002E5B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3DB85625AB6621002E5B25 /* TezTopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TezTopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3DB85A25AB6621002E5B25 /* TezTopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TezTopUITests.swift; sourceTree = "<group>"; };
+		FA3DB85C25AB6621002E5B25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3DB86925AB66CA002E5B25 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FA3DB86B25AB67A1002E5B25 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA3DB86E25AB6B3F002E5B25 /* TopicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsViewController.swift; sourceTree = "<group>"; };
+		FAA68CAA25ACD2C900034DDC /* TopicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		FAA68CAD25ACD32100034DDC /* TopicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewCell.swift; sourceTree = "<group>"; };
+		FAA68CAF25ACD59500034DDC /* TopicsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA3DB83225AB661F002E5B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB84825AB6620002E5B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB85325AB6621002E5B25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA3DB82C25AB661F002E5B25 = {
+			isa = PBXGroup;
+			children = (
+				FA3DB83725AB661F002E5B25 /* TezTop */,
+				FA3DB84E25AB6620002E5B25 /* TezTopTests */,
+				FA3DB85925AB6621002E5B25 /* TezTopUITests */,
+				FA3DB83625AB661F002E5B25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA3DB83625AB661F002E5B25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA3DB83525AB661F002E5B25 /* TezTop.app */,
+				FA3DB84B25AB6620002E5B25 /* TezTopTests.xctest */,
+				FA3DB85625AB6621002E5B25 /* TezTopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3DB83725AB661F002E5B25 /* TezTop */ = {
+			isa = PBXGroup;
+			children = (
+				FAA68CAC25ACD2CE00034DDC /* model */,
+				FAA68CA625ACD29600034DDC /* ui */,
+				FA3DB86825AB66B8002E5B25 /* screen */,
+				FA3DB83825AB661F002E5B25 /* AppDelegate.swift */,
+				FA3DB84125AB6620002E5B25 /* Assets.xcassets */,
+				FA3DB84325AB6620002E5B25 /* LaunchScreen.storyboard */,
+				FA3DB84625AB6620002E5B25 /* Info.plist */,
+				FA3DB86B25AB67A1002E5B25 /* Constants.swift */,
+			);
+			path = TezTop;
+			sourceTree = "<group>";
+		};
+		FA3DB84E25AB6620002E5B25 /* TezTopTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3DB84F25AB6620002E5B25 /* TezTopTests.swift */,
+				FA3DB85125AB6620002E5B25 /* Info.plist */,
+			);
+			path = TezTopTests;
+			sourceTree = "<group>";
+		};
+		FA3DB85925AB6621002E5B25 /* TezTopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3DB85A25AB6621002E5B25 /* TezTopUITests.swift */,
+				FA3DB85C25AB6621002E5B25 /* Info.plist */,
+			);
+			path = TezTopUITests;
+			sourceTree = "<group>";
+		};
+		FA3DB86825AB66B8002E5B25 /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				FA3DB86D25AB6B2E002E5B25 /* topics */,
+				FA3DB86925AB66CA002E5B25 /* MainViewController.swift */,
+			);
+			path = screen;
+			sourceTree = "<group>";
+		};
+		FA3DB86D25AB6B2E002E5B25 /* topics */ = {
+			isa = PBXGroup;
+			children = (
+				FA3DB86E25AB6B3F002E5B25 /* TopicsViewController.swift */,
+			);
+			path = topics;
+			sourceTree = "<group>";
+		};
+		FAA68CA625ACD29600034DDC /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				FAA68CA925ACD2AA00034DDC /* collection */,
+				FAA68CA825ACD2A100034DDC /* tableview */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		FAA68CA725ACD29B00034DDC /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				FAA68CAD25ACD32100034DDC /* TopicTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		FAA68CA825ACD2A100034DDC /* tableview */ = {
+			isa = PBXGroup;
+			children = (
+				FAA68CA725ACD29B00034DDC /* cell */,
+				FAA68CAF25ACD59500034DDC /* TopicsTableView.swift */,
+			);
+			path = tableview;
+			sourceTree = "<group>";
+		};
+		FAA68CA925ACD2AA00034DDC /* collection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = collection;
+			sourceTree = "<group>";
+		};
+		FAA68CAC25ACD2CE00034DDC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FAA68CAA25ACD2C900034DDC /* TopicModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA3DB83425AB661F002E5B25 /* TezTop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3DB85F25AB6621002E5B25 /* Build configuration list for PBXNativeTarget "TezTop" */;
+			buildPhases = (
+				FA3DB83125AB661F002E5B25 /* Sources */,
+				FA3DB83225AB661F002E5B25 /* Frameworks */,
+				FA3DB83325AB661F002E5B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TezTop;
+			productName = TezTop;
+			productReference = FA3DB83525AB661F002E5B25 /* TezTop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA3DB84A25AB6620002E5B25 /* TezTopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3DB86225AB6621002E5B25 /* Build configuration list for PBXNativeTarget "TezTopTests" */;
+			buildPhases = (
+				FA3DB84725AB6620002E5B25 /* Sources */,
+				FA3DB84825AB6620002E5B25 /* Frameworks */,
+				FA3DB84925AB6620002E5B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3DB84D25AB6620002E5B25 /* PBXTargetDependency */,
+			);
+			name = TezTopTests;
+			productName = TezTopTests;
+			productReference = FA3DB84B25AB6620002E5B25 /* TezTopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA3DB85525AB6621002E5B25 /* TezTopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA3DB86525AB6621002E5B25 /* Build configuration list for PBXNativeTarget "TezTopUITests" */;
+			buildPhases = (
+				FA3DB85225AB6621002E5B25 /* Sources */,
+				FA3DB85325AB6621002E5B25 /* Frameworks */,
+				FA3DB85425AB6621002E5B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA3DB85825AB6621002E5B25 /* PBXTargetDependency */,
+			);
+			name = TezTopUITests;
+			productName = TezTopUITests;
+			productReference = FA3DB85625AB6621002E5B25 /* TezTopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA3DB82D25AB661F002E5B25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Javohir Yakubov";
+				TargetAttributes = {
+					FA3DB83425AB661F002E5B25 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					FA3DB84A25AB6620002E5B25 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FA3DB83425AB661F002E5B25;
+					};
+					FA3DB85525AB6621002E5B25 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = FA3DB83425AB661F002E5B25;
+					};
+				};
+			};
+			buildConfigurationList = FA3DB83025AB661F002E5B25 /* Build configuration list for PBXProject "TezTop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA3DB82C25AB661F002E5B25;
+			productRefGroup = FA3DB83625AB661F002E5B25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA3DB83425AB661F002E5B25 /* TezTop */,
+				FA3DB84A25AB6620002E5B25 /* TezTopTests */,
+				FA3DB85525AB6621002E5B25 /* TezTopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA3DB83325AB661F002E5B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3DB84525AB6620002E5B25 /* LaunchScreen.storyboard in Resources */,
+				FA3DB84225AB6620002E5B25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB84925AB6620002E5B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB85425AB6621002E5B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA3DB83125AB661F002E5B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA68CAB25ACD2C900034DDC /* TopicModel.swift in Sources */,
+				FAA68CAE25ACD32100034DDC /* TopicTableViewCell.swift in Sources */,
+				FAA68CB025ACD59500034DDC /* TopicsTableView.swift in Sources */,
+				FA3DB83925AB661F002E5B25 /* AppDelegate.swift in Sources */,
+				FA3DB86A25AB66CA002E5B25 /* MainViewController.swift in Sources */,
+				FA3DB86F25AB6B3F002E5B25 /* TopicsViewController.swift in Sources */,
+				FA3DB86C25AB67A1002E5B25 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB84725AB6620002E5B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3DB85025AB6620002E5B25 /* TezTopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3DB85225AB6621002E5B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3DB85B25AB6621002E5B25 /* TezTopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA3DB84D25AB6620002E5B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3DB83425AB661F002E5B25 /* TezTop */;
+			targetProxy = FA3DB84C25AB6620002E5B25 /* PBXContainerItemProxy */;
+		};
+		FA3DB85825AB6621002E5B25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA3DB83425AB661F002E5B25 /* TezTop */;
+			targetProxy = FA3DB85725AB6621002E5B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA3DB84325AB6620002E5B25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA3DB84425AB6620002E5B25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA3DB85D25AB6621002E5B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA3DB85E25AB6621002E5B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA3DB86025AB6621002E5B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4689R86WTT;
+				INFOPLIST_FILE = TezTop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bdmgroup.TezTop2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA3DB86125AB6621002E5B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4689R86WTT;
+				INFOPLIST_FILE = TezTop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bdmgroup.TezTop2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA3DB86325AB6621002E5B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4689R86WTT;
+				INFOPLIST_FILE = TezTopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bdmgroup.TezTopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TezTop.app/TezTop";
+			};
+			name = Debug;
+		};
+		FA3DB86425AB6621002E5B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4689R86WTT;
+				INFOPLIST_FILE = TezTopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bdmgroup.TezTopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TezTop.app/TezTop";
+			};
+			name = Release;
+		};
+		FA3DB86625AB6621002E5B25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4689R86WTT;
+				INFOPLIST_FILE = TezTopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bdmgroup.TezTopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TezTop;
+			};
+			name = Debug;
+		};
+		FA3DB86725AB6621002E5B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4689R86WTT;
+				INFOPLIST_FILE = TezTopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uz.bdmgroup.TezTopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TezTop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA3DB83025AB661F002E5B25 /* Build configuration list for PBXProject "TezTop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3DB85D25AB6621002E5B25 /* Debug */,
+				FA3DB85E25AB6621002E5B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3DB85F25AB6621002E5B25 /* Build configuration list for PBXNativeTarget "TezTop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3DB86025AB6621002E5B25 /* Debug */,
+				FA3DB86125AB6621002E5B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3DB86225AB6621002E5B25 /* Build configuration list for PBXNativeTarget "TezTopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3DB86325AB6621002E5B25 /* Debug */,
+				FA3DB86425AB6621002E5B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA3DB86525AB6621002E5B25 /* Build configuration list for PBXNativeTarget "TezTopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA3DB86625AB6621002E5B25 /* Debug */,
+				FA3DB86725AB6621002E5B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA3DB82D25AB661F002E5B25 /* Project object */;
+}
